@@ -1,0 +1,102 @@
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-body-darker: #5c5577;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+/*grids*/
+.grid {
+    grid-template-columns: 2fr 7fr;
+}
+
+@media screen and (min-width: 760px) {
+    .grid {
+        display: grid;
+
+    }
+}
+
+.grid--1x2 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.div--image {
+    padding-left: 1rem;
+    background-color: #000;
+    height: auto;
+}
+
+.image {
+    border: 0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+}
+
+.name {
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.job--title {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.section {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.h3 {
+    margin: 0;
+}
+
+.h2 {
+    text-decoration: underline;
+}
+
+.box {
+    box-shadow: 1;
+}
+
+.card {
+    overflow: hidden;
+    padding: 1rem;
+    background: #f3f3f3;
+}
+
+.vl {
+    border-left: 6px solid b#000;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+  }
+
+  .summary {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-color: #f3f3f3;
+    border: 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .div--heading {
+    border-bottom: 5px solid black;
+  }
